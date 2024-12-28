@@ -1,0 +1,156 @@
+/* Universal Styling */
+
+.flex-display {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+body .container {
+    --bs-gutter-x: 20rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Parkinsans", sans-serif;
+}
+
+.col {
+    display: inline-block;
+}
+
+.active {
+    display: block !important;
+}
+
+
+/* Header */
+
+#main-nav {
+    min-height: 40px;
+    margin: auto;
+    width: auto;
+    position: relative; 
+    float: right;
+}
+
+.nav-items {
+    padding: 30px 20px 20px 20px;
+    gap: 30px;
+}
+
+
+.nav-items li {
+    padding: 0 15px 0 15px;
+}
+
+header li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+header a {
+    color: yellowgreen;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* Content */
+
+#content {
+    background: beige;
+    margin-top: 100px;
+}
+
+.fa-brands {
+    color: pink;
+}
+
+#about-me i {
+    font-size: 20px;
+}
+
+footer {
+    clear: both;
+    bottom: 0;
+    position: relative;
+    margin: 50px 0 10px 0;
+}
+
+
+/* Sections */
+
+#details {
+    padding: 0 50px 50px 50px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 1400px) {
+    #details { }
+}
+
+#about-me ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.intro, .skills {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+.intro { 
+    float: left;
+}
+
+#about-me img {
+    border-radius: 20px;
+    border: 1px solid pink;
+    min-height: 200px;
+    padding: 20px;
+    width: 200px;
+}
+
+#details section {
+    display: none;
+}
+
+section {
+    padding-top: 50px;
+}
+
+section h2 {
+    color: pink;
+}
+
+section h3 {
+    color: yellowgreen;
+}
+
+.project {
+    margin-top: 20px;
+    display: flex;
+}
+
+.project-image {
+    border-radius: 20px;
+    border: 1px solid pink;
+}
+
+.project div {
+    min-height: 200px;
+    padding: 20px;
+}
